@@ -29,7 +29,6 @@ app.init = function(callback){
 // Self invoking only if require directly
 if(require.main === module){
     app.init(function(){});
-    console.log(require.main);
 }
 
 
